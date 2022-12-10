@@ -1,11 +1,10 @@
 #Question 1
-#
 a=int(input("Enter the First Number:"))
 b=int(input("Enter the Second Number:"))
 c=int(input("Enter the Third Number:"))
 d=int(input("Enter the Fourth Number:"))
 e=int(input("Enter the Fifth Number :"))
-if (a <=0 or b<=0 or c<=0 or d<=0 or e<=0):
+if (a <=0 or b<=0 or c<=0 or d<=0 or e<=0): 
     print("Make Sure the Number Entered is Postive")
 else: 
     sum=a+b+c+d+e
