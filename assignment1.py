@@ -11,6 +11,7 @@ else:
     x=open('products.txt','a')
     print("The Total Sum of all the Five Numbers is :",sum,file=x) # used to save the file in txt
     print("The Total Sum of all the Five Numbers is :",sum) #used to display the data in the console 
+    x.close()
   
 
 
@@ -26,6 +27,7 @@ for key,value in Car.items():
     x=open('products.txt','a')
     print(key,value,file=x) # it is to save the file in txt
     print(key,value)#used to display the data in the console 
+     x.close()
 
 
 
